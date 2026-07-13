@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mood Tracker</title>
+  </head>
+  <body>
+    <h1>Mood Tracker</h1>
+    <form class="container">
+      <h2>
+        How do you feel today,
+        <input type="text" name="date" id="date" placeholder="Date today" /> ?
+      </h2>
+      <div class="mood-container" id="mood-container">
+        <div class="mood" id="mood-cheerful">😃</div>
+        <div class="mood" id="mood-calm">😌</div>
+        <div class="mood" id="mood-energetic">💪</div>
+        <div class="mood" id="mood-euthymic">😶</div>
+        <div class="mood" id="mood-depressed">😔</div>
+        <div class="mood" id="mood-anxious">😰</div>
+        <div class="mood" id="mood-irritable">😒</div>
+        <div class="mood" id="mood-mad">😠</div>
+      </div>
+      <input type="submit" id="btn-submit" />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(orange, whitesmoke);
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mood {
+  border: none;
+  height: 150px;
+  width: 150px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+/* TO:transform scale to bigger when hovered over */
+.mood:hover {
+  transition: ease-in 60ms;
+  outline: 5px solid brown;
+}
+
+.mood-container {
+  margin: auto;
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
+#btn-submit {
+  width: 120px;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
+#mood-cheerful {
+  background-color: yellow;
+}
+
+#mood-calm {
+  background-color: greenyellow;
+}
+
+#mood-energetic {
+  background-color: orange;
+}
+
+#mood-euthymic {
+  background-color: whitesmoke;
+}
+
+#mood-depressed {
+  background-color: rgb(43, 43, 238);
+}
+
+#mood-anxious {
+  background-color: rgb(165, 87, 87);
+}
+
+#mood-irritable {
+  background-color: grey;
+}
+
+#mood-mad {
+  background-color: tomato;
+}
