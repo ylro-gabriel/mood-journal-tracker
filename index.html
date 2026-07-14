@@ -7,11 +7,15 @@
     <title>Mood Tracker</title>
   </head>
   <body>
-    <h1>Mood Tracker</h1>
+    <h1>
+      <span class="box-pink"></span>mood tracker<span class="box-pink"></span>
+    </h1>
     <form class="container">
       <h2>
-        How do you feel today,
-        <input type="text" name="date" id="date" placeholder="Date today" /> ?
+        how do you feel today?
+        <span>
+          <input type="text" name="date" id="date" placeholder="date today" />
+        </span>
       </h2>
       <div class="mood-container" id="mood-container">
         <div class="mood" id="mood-cheerful">😃</div>
@@ -23,7 +27,7 @@
         <div class="mood" id="mood-irritable">😒</div>
         <div class="mood" id="mood-mad">😠</div>
       </div>
-      <input type="submit" id="btn-submit" />
+      <input value="submit" type="submit" id="btn-submit" />
     </form>
 
     <script src="script.js"></script>
